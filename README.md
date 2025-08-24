@@ -57,22 +57,22 @@ CRVs are not like ordinary vector representations, which combine meaning spread 
 towards being easy for humans to understand, instead being optimized for efficiency. The fact that CRVs are made by a fixed
 process allows for inspection into the meaning of their values.
 
-Consider the CRV of "bake", obtained from a corpus of recipes:
-  { + 0.17⋅\n + 0.16⋅- + 0.1⋅at + 0.1⋅3 + 0.04⋅and + 0.04⋅. 
-    + 0.03⋅for + 0.03⋅1 + 0.03⋅in + 0.02⋅4 + 0.02⋅0 + 0.02⋅2
-    + 0.02⋅5 + 0.01⋅, + 0.01⋅a + 0.01⋅uncovered + 0.01⋅pan 
-    + 0.01⋅until + 0.01⋅about + 0.01⋅cover + 352 others}
+Consider the CRV of "bake", obtained from a corpus of recipes:  
+  { + 0.17⋅\n + 0.16⋅- + 0.1⋅at + 0.1⋅3 + 0.04⋅and + 0.04⋅.   
+    + 0.03⋅for + 0.03⋅1 + 0.03⋅in + 0.02⋅4 + 0.02⋅0 + 0.02⋅2  
+    + 0.02⋅5 + 0.01⋅, + 0.01⋅a + 0.01⋅uncovered + 0.01⋅pan   
+    + 0.01⋅until + 0.01⋅about + 0.01⋅cover + 352 others}  
 
 Here we see, *as expected*, words that would be around the word 'bake'.
 This may be the first time you have seen a word vector that is what you *expect*!
 
 These representations can even be guessed at; take for example this CRV, from the same corpus:
 
-  { + 0.24⋅\n + 0.09⋅. + 0.07⋅dish + 0.05⋅- + 0.04⋅<START> 
-    + 0.04⋅in + 0.04⋅quart + 0.02⋅a + 0.02⋅and + 0.01⋅, 
-    + 0.01⋅into + 0.01⋅greased + 0.01⋅of + 0.01⋅broccoli 
-    + 0.01⋅chicken + 0.01⋅with + 0.01⋅potato 
-    + 0.01⋅large + 0.01⋅put + 0.01⋅buttered + 237 others}
+  { + 0.24⋅\n + 0.09⋅. + 0.07⋅dish + 0.05⋅- + 0.04⋅<START>   
+    + 0.04⋅in + 0.04⋅quart + 0.02⋅a + 0.02⋅and + 0.01⋅,   
+    + 0.01⋅into + 0.01⋅greased + 0.01⋅of + 0.01⋅broccoli   
+    + 0.01⋅chicken + 0.01⋅with + 0.01⋅potato   
+    + 0.01⋅large + 0.01⋅put + 0.01⋅buttered + 237 others}  
 
 This is an example of one that is harder to guess, but you can get at the *mood* of the word.
 It has to do with brocolli, chicken, butter and grease, and it is a 'dish'.
