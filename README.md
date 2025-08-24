@@ -61,4 +61,9 @@ Consider the CRV of "bake", obtained from a corpus of recipes:
     + 0.02⋅5 + 0.01⋅, + 0.01⋅a + 0.01⋅uncovered + 0.01⋅pan 
     + 0.01⋅until + 0.01⋅about + 0.01⋅cover + 352 others}
 
+Here we see, *as expected*, words that would be around the word 'bake'.
+This may be the first time you have seen a word vector that is what you *expect*!
+
+These representations can even be guessed at; take for example this CRV, from the same corpus:
+
 
