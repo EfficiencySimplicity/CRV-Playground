@@ -66,4 +66,14 @@ This may be the first time you have seen a word vector that is what you *expect*
 
 These representations can even be guessed at; take for example this CRV, from the same corpus:
 
+  { + 0.24⋅\n + 0.09⋅. + 0.07⋅dish + 0.05⋅- + 0.04⋅<START> 
+    + 0.04⋅in + 0.04⋅quart + 0.02⋅a + 0.02⋅and + 0.01⋅, 
+    + 0.01⋅into + 0.01⋅greased + 0.01⋅of + 0.01⋅broccoli 
+    + 0.01⋅chicken + 0.01⋅with + 0.01⋅potato 
+    + 0.01⋅large + 0.01⋅put + 0.01⋅buttered + 237 others}
+
+This is an example of one that is harder to guess, but you can get at the *mood* of the word.
+It has to do with brocolli, chicken, butter and grease, and it is a 'dish'.
+The word happens to be 'casserole', and the CRV above probably makes more sense in light of that information.
+
 
