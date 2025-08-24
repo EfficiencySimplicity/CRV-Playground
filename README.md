@@ -5,7 +5,9 @@ Composite Representation Vectors (CRVs) are a type of human-understandable word 
 # CRVs:
 
 CRVs are an effective, simple, human-understandable word vector representation (although they are not limited to simply words!) that
-store words as frequency tables. To generate a CRV for a specific word, take every appearance of that word in a corpus / dataset, along with
+store words as frequency tables. They are made by a fixed, logical process that allows inspection of *why* a value is the way it is.
+
+To generate a CRV for a specific word, take every appearance of that word in a corpus / dataset, along with
 the words around it:
 
 ...and there **was** a new...
