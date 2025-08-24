@@ -97,8 +97,11 @@ A quick search reveals:
 
 '1 / 2 - quart casserole . '
 
-It appears (and I have just learned many other things from my CRVs) that
-the standard measurement of a casserole is in *quarts*, which was certainly unexpected for me.
+It appears (and I have learned many other things from my CRVs) that
+the standard measurement of a casserole is in *quarts*,
+which was certainly unexpected for me. I'd expect the measurement to be in pan-inches.
+
+Diplomacy hi greetings
 
 
 
