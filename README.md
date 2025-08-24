@@ -2,3 +2,28 @@
 Composite Representation Vectors (CRVs) are a type of human-understandable word embedding developed with the intent of creating explainable AI models. This repository includes tools for explaining and working with them. 
 
 
+# CRVs:
+
+CRVs are an effective, simple, human-understandable word vector representation (although they are not limited to simply words!) that
+store words as frequency tables. To generate a CRV for a specific word, take every appearance of that word in a corpus / dataset, along with
+the words around it:
+
+...and there **was** a new...
+...so I **was** starting to...
+..., it **was** soon apparent...
+
+The CRV for "was" is a table of words to percentages. More specifically:
+
+- Every word that was appears next to (within the chosen context window) is tallied in the table:
+
+  | Word     | Tally   |
+  | -------- | ------- |
+  | the      | 11800   |
+  | in       | 5920    |
+  | starting | 94765   |
+
+
+### Some notes on generating CRVs:
+
+
+
