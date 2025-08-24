@@ -78,4 +78,9 @@ This is an example of one that is harder to guess, but you can get at the *mood*
 It has to do with brocolli, chicken, butter and grease, and it is a 'dish'.
 The word happens to be 'casserole', and the CRV above probably makes more sense in light of that information.
 
+But why is "quart" so common next to 'casserole'? I certainly don't see the connection. And this is where the train would stop
+for most types of word vectors. Maybe you'd check to see what activates parts of it, maybe you'd check similarity. Those would
+both be approximations, however. With CRVs, we can plainly see, by *looking into the corpus*, where this came from, and have it then
+*make sense to us*.
+
 
