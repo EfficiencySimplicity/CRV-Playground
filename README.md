@@ -46,5 +46,13 @@ That's all there is to it! It may seem overly simple, but CRVs can procuce surpr
 - It is recommended that you use the tally - and divide method above, as simply dividing by the number of appearences of "was" will
   not take into account the varying window size (sometimes clipped by the end of the document)
 
+# CRV Operations
+
+CRVs are not like ordinary vector representations, which combine meaning spread out across many values, and are not oriented 
+towards being easy for humans to understand, instead being optimized for efficiency. The fact that CRVs are made by a fixed
+process allows for inspection into the meaning of their values.
+
+Consider the CRV of "bake", obtained from a corpus of recipes:
+
 
 
