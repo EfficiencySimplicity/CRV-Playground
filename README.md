@@ -14,7 +14,7 @@ the words around it:
 
 The CRV for "was" is a table of words to percentages. More specifically:
 
-- Every word that was appears next to (within the chosen context window) is tallied in the table:
+- Every word that "was" appears next to (within the chosen context window) is tallied in the table:
 
   | Word     | Tally   |
   | -------- | ------- |
@@ -25,6 +25,13 @@ The CRV for "was" is a table of words to percentages. More specifically:
 - Every word's tally is divided by the sum of all the tallies,
   resulting in a normalized value representing the percentage of times that "was" is paired with that word.
 
+  | Word     | Tally   |
+  | -------- | ------- |
+  | the      | .1049   |
+  | in       | .0526   |
+  | starting | .8425   |
+
+That's all there is to it! 
 
 ### Some notes on generating CRVs:
 
