@@ -22,6 +22,9 @@ The CRV for "was" is a table of words to percentages. More specifically:
   | in       | 5920    |
   | starting | 94765   |
 
+- Every word's tally is divided by the sum of all the tallies,
+  resulting in a normalized value representing the percentage of times that "was" is paired with that word.
+
 
 ### Some notes on generating CRVs:
 
