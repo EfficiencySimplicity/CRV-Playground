@@ -51,6 +51,8 @@ That's all there is to it! It may seem overly simple, but CRVs can procuce surpr
 
 # CRV Operations
 
+# CRV Interpretation
+
 CRVs are not like ordinary vector representations, which combine meaning spread out across many values, and are not oriented 
 towards being easy for humans to understand, instead being optimized for efficiency. The fact that CRVs are made by a fixed
 process allows for inspection into the meaning of their values.
