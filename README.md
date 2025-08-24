@@ -83,4 +83,7 @@ for most types of word vectors. Maybe you'd check to see what activates parts of
 both be approximations, however. With CRVs, we can plainly see, by *looking into the corpus*, where this came from, and have it then
 *make sense to us*.
 
+A quick search reveals:
+
+
 
