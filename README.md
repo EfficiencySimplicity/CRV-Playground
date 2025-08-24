@@ -56,6 +56,9 @@ towards being easy for humans to understand, instead being optimized for efficie
 process allows for inspection into the meaning of their values.
 
 Consider the CRV of "bake", obtained from a corpus of recipes:
-  { + 0.17⋅\n + 0.16⋅- + 0.1⋅at + 0.1⋅3 + 0.04⋅and + 0.04⋅. + 0.03⋅for + 0.03⋅1 + 0.03⋅in + 0.02⋅4 + 0.02⋅0 + 0.02⋅2 + 0.02⋅5 + 0.01⋅, + 0.01⋅a + 0.01⋅uncovered + 0.01⋅pan + 0.01⋅until + 0.01⋅about + 0.01⋅cover + 352 others}
+  { + 0.17⋅\n + 0.16⋅- + 0.1⋅at + 0.1⋅3 + 0.04⋅and + 0.04⋅. 
+    + 0.03⋅for + 0.03⋅1 + 0.03⋅in + 0.02⋅4 + 0.02⋅0 + 0.02⋅2
+    + 0.02⋅5 + 0.01⋅, + 0.01⋅a + 0.01⋅uncovered + 0.01⋅pan 
+    + 0.01⋅until + 0.01⋅about + 0.01⋅cover + 352 others}
 
 
