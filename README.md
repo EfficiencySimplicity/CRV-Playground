@@ -113,10 +113,32 @@ is 'hi' and 'greetings':
 How *specifically* are 'hi' and 'greetings' different?
 By subtracting 'greetings' from 'hi', we get this:
 
+{ - 0.04⋅! + 0.04⋅there + 0.04⋅. - 0.03⋅\n - 0.03⋅from  
+  - 0.03⋅<UNK> + 0.03⋅france + 0.02⋅turkey - 0.02⋅my  
+  + 0.02⋅— + 0.02⋅<START> - 0.01⋅queen - 0.01⋅good - 0.01⋅her  
+  - 0.01⋅hope - 0.01⋅how - 0.01⋅neighbor - 0.01⋅the - 0.01⋅to  
+  - 0.01⋅we + 50 others}
 
+separating nefative values as 'more like "greetings"', we get these:
 
+##### more like 'hi':
 
+{ + 0.04⋅there + 0.04⋅. + 0.03⋅france + 0.02⋅turkey + 0.02⋅—  
+  + 0.02⋅<START>}
 
+##### more like 'greetings':
+
+{ + 0.04⋅! + 0.03⋅\n + 0.03⋅from + 0.03⋅<UNK> + 0.02⋅my 
+  + 0.01⋅queen + 0.01⋅good + 0.01⋅her  
+  + 0.01⋅hope + 0.01⋅how + 0.01⋅neighbor + 0.01⋅the + 0.01⋅to  
+  + 0.01⋅we}
+
+From these two CRVs, we can gain quite a lot of information:
+
+- 'hi' is more often used to greet a country.
+- 'greetings' is most often to greet a queen, and its tone is more formal overall.
+- 'hi' appears next to the <START> of a chat message more often, and is the more common greeting.
+- 'greetings' is more often near a new line, meaning 'greetings' is on it's own line, like the greeting in a letter.
 
 # CRV Interpretation
 
