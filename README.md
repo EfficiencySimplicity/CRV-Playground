@@ -11,16 +11,18 @@ CRVs are an effective, logical human-understandable word vector representation (
 store words as co-occurrence tables. They are made by a fixed, logical process that allows inspection of *why* a value is the way it is,
 and encourage inspection into their behavior.
 
-To generate a CRV for a specific word, take every appearance of that word in a corpus / dataset, along with
-the words around it:
+To generate a CRV for a specific word, take every appearance of that word in a corpus, along with
+the words around it in a certain context window:
 
 "and there **was** a        new"
 "so  I     **was** starting to"
 ",   it    **was** soon     apparent"
+"so  it    **was** <END>"
 
-The CRV for "was" is a table of words to percentages. More specifically:
+Create a table of words to percentages. More specifically:
 
-- Every word that "was" appears next to (within the chosen context window) is tallied in the table:
+- Every word that "was" ever appears next to is tallied in the table, based on how many times it appeared in the context window
+  (duplicates of the word in the same window ("that it **was**. That") are counted twice):
 
   | Word     | Tally   |
   | -------- | ------- |
@@ -48,7 +50,8 @@ That's all there is to it! It may seem overly simple, but CRVs can produce surpr
   while a smaller window will be more inclined towards the "meaning" of the word
 
 - It is recommended that you use the tally - and divide method above, as simply dividing by the number of appearences of "was" will
-  not take into account the varying window size (sometimes clipped by the end of the document)
+  neither take into account the varying window size (sometimes clipped by the end of the document), nor the fact that duplicates sometimes
+  appear in a context window.
   
 # CRV Operations
 
@@ -82,7 +85,7 @@ similarity of 'betray' (diplomacy corpus):
 
 <img width="1601" height="659" alt="image" src="https://github.com/user-attachments/assets/1205f907-fb14-4f80-87b1-6b4b05ea93b0" />
 
-similarity of '🥳' (diplomacy corpus):
+similarity of '🥳' (diplomacy corpus): (it can classify emoji, too!)
 
 <img width="1601" height="659" alt="image" src="https://github.com/user-attachments/assets/fceb27ba-bbd2-4a85-96dd-8c3ecf6884cf" />
 
