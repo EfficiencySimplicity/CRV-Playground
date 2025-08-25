@@ -77,6 +77,46 @@ similarity of '2' (recipe corpus):
 
 <img width="1601" height="659" alt="image" src="https://github.com/user-attachments/assets/906278c0-2f58-493b-81b4-f190b2afcaa4" />
 
+similarity of 'betray' (diplomacy corpus):
+
+<img width="1601" height="659" alt="image" src="https://github.com/user-attachments/assets/1205f907-fb14-4f80-87b1-6b4b05ea93b0" />
+
+similarity of '🥳' (diplomacy corpus):
+
+<img width="1601" height="659" alt="image" src="https://github.com/user-attachments/assets/fceb27ba-bbd2-4a85-96dd-8c3ecf6884cf" />
+
+
+#### Difference
+
+Suppose you want to know how two words are different (i.e. how are they used differently?). CRVs make inspecting a word's particular
+attributes incredibly simple.
+
+For example, here from the diplomacy corpus (a strategy game where country leaders sent chat messages asking for alliances and so on)
+is 'hi' and 'greetings':
+
+'hi':
+
+{ + 0.32⋅<START> + 0.13⋅, + 0.1⋅! + 0.04⋅there + 0.04⋅.  
+  + 0.03⋅germany + 0.03⋅russia + 0.03⋅austria + 0.03⋅england
+  + 0.03⋅france + 0.02⋅turkey + 0.02⋅— + 0.02⋅i + 0.02⋅italy
+  + 0.01⋅- + 0.01⋅and + 0.01⋅queen + 0.01⋅: + 0.01⋅<END>
+  + 0.01⋅fellow + 38 others}
+
+'greetings':
+
+{ + 0.3⋅<START> + 0.14⋅! + 0.13⋅, + 0.04⋅germany + 0.03⋅\n  
+  + 0.03⋅<UNK> + 0.03⋅from + 0.03⋅russia + 0.02⋅austria
+  + 0.02⋅england + 0.02⋅italy + 0.02⋅my + 0.02⋅queen
+  + 0.01⋅and + 0.01⋅good + 0.01⋅her + 0.01⋅hope + 0.01⋅how
+  + 0.01⋅i + 0.01⋅kaiser + 6 others}
+
+How *specifically* are 'hi' and 'greetings' different?
+By subtracting 'greetings' from 'hi', we get this:
+
+
+
+
+
 
 # CRV Interpretation
 
