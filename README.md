@@ -65,6 +65,17 @@ Since a CRV's values all sum to 1, the largest value that min() can reach is 1; 
 exactly equal, so the minimum is exactly the same as either one, and summed up, is one. Any increase in one of a CRV's
 values results in a decrease in others.
 
+similarity of 'chicken' (recipe corpus):
+
+<img width="1601" height="659" alt="image" src="https://github.com/user-attachments/assets/635f381c-3d0d-4fff-8cc4-e0e655d6ce03" />
+
+similarity of 'hi' (diplomacy corpus):
+
+<img width="1601" height="659" alt="image" src="https://github.com/user-attachments/assets/916c7c19-8e94-4435-a557-3f13e1681147" />
+
+similarity of '2' (recipe corpus):
+
+<img width="1601" height="659" alt="image" src="https://github.com/user-attachments/assets/906278c0-2f58-493b-81b4-f190b2afcaa4" />
 
 
 # CRV Interpretation
