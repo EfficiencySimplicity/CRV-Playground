@@ -48,8 +48,24 @@ That's all there is to it! It may seem overly simple, but CRVs can procuce surpr
 
 - It is recommended that you use the tally - and divide method above, as simply dividing by the number of appearences of "was" will
   not take into account the varying window size (sometimes clipped by the end of the document)
-
+  
 # CRV Operations
+
+#### Similarity:
+
+The best discovered methods for finding the similarity of 2 CRVs (and thus 2 ideas) are min() and absolute difference.
+Both of these methods produce nearly identical ordering of words according to similarity, but have differing values.
+Minimum is preferred because:
+
+- It is always normalized
+- It is quick to compute bitwise
+- It is always positive.
+
+Since a CRV's values all sum to 1, the largest value that min() can reach is 1; this is where the two CRVs are 
+exactly equal, so the minimum is exactly the same as either one, and summed up, is one. Any increase in one of a CRV's
+values results in a decrease in others.
+
+
 
 # CRV Interpretation
 
