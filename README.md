@@ -36,7 +36,7 @@ The CRV for "was" is a table of words to percentages. More specifically:
   | in       | .0526   |
   | starting | .8425   |
 
-That's all there is to it! It may seem overly simple, but CRVs can procuce surprising results. 
+That's all there is to it! It may seem overly simple, but CRVs can produce surprising results. 
 
 ### Some notes on generating CRVs:
 
