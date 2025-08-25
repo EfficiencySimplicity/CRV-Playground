@@ -190,6 +190,9 @@ It appears (and I have learned many other things from my CRVs) that
 the standard measurement of a casserole is in *quarts*,
 which was certainly unexpected for me. I'd expect the measurement to be in pan-inches.
 
+CRV's meanings are not completely discrete, though. Meaning *can* be spread across values, albeit in a sensible way.
+For example, the phrase '-off', as in dance-off, bake-off, etc. is two words that together give the idea of a competition.
+
 Diplomacy hi greetings
 
 
