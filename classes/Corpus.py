@@ -1,8 +1,8 @@
 from collections import defaultdict, Counter
 from spellwise import CaverphoneOne
+import tensorflow as tf
 from itertools import *
 import numpy as np
-import random
 import json
 
 from classes.Utils import *
@@ -342,6 +342,10 @@ class Corpus:
 
 
     # Corpus Search
+
+    def get_ragged_int_tensor(self):
+        return tf.ragged.constant([[self.word_indices[word] for word in sentence] for sentence in self.sentences], dtype = tf.int16)
+
     
     def find(self, words, max_seperation = 3, max_prints = 10, print_size = 20):
         # once you find a set, skip past the first findable word, or you get duplicates
