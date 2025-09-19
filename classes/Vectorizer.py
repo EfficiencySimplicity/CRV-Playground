@@ -132,6 +132,10 @@ class Vectorizer:
                 ratings = 1 - np.sum(abs(sequence - vector), axis = 1)
             elif mode == 'mult':
                 ratings = np.einsum('wv,v->w', sequence, vector)
+            elif mode == 'sqrt':
+                ratings = np.sqrt(sequence * vector)
+                ratings = np.sum(ratings, axis = -1)
+                ratings *= ratings
 
         except Exception as error:
             print(type(vector), type(sequence))

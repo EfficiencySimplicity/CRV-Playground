@@ -1,0 +1,181 @@
+Corpus Removal Threshold: 0
+
+Vectorizer Removal Threshold: 0
+
+Grouping Similarity: 0.6
+
+                         
+{'<END>', 'xii', 'vii', 'iv', 'xiv', 'ii', 'viii', 'ix', 'v', 'x', 'iii', 'vi', 'xi', 'xiii', 'xvi', 'xv'}
+{'xii', 'vii', 'books', 'iv', 'xiv', 'ii', 'viii', 'ix', 'v', 'x', 'iii', 'vi', 'xi', 'xiii', 'xvi', 'xv'}
+{'gulp', 'growling', 'upset', 'sides', 'occupants', 'recognize', 'differently', 'gravely', 'suspense', 'dissatisfaction', 'prey', 'balefully'}
+{'gulp', 'growling', 'collapse', 'occupants', 'recognize', 'differently', 'neighbors', 'balefully', 'suspense', 'hated', 'irritable'}
+{'gulp', 'bureau', 'growling', 'sinking', 'occupants', 'recognize', 'differently', 'birches', 'suspense', 'balefully'}
+{'gulp', 'subside', 'growling', 'eagerness', 'occupants', 'recognize', 'differently', 'suspense', 'balefully'}
+{'gulp', 'growling', 'occupants', 'recognize', 'differently', 'bath', 'balefully', 'suspense', 'elsewhere'}
+{'gulp', 'growling', 'thousand', 'occupants', 'recognize', 'differently', 'suspense', 'balefully'}
+{'<END>', 'gulp', 'growling', 'occupants', 'recognize', 'differently', 'suspense', 'balefully'}
+{'awkward', 'gulp', 'growling', 'occupants', 'recognize', 'differently', 'suspense', 'balefully'}
+{'gulp', 'growling', 'occupants', 'trunk', 'recognize', 'differently', 'suspense', 'balefully'}
+{'gulp', 'growling', 'occupants', 'recognize', 'differently', 'twinkling', 'suspense', 'balefully'}
+{'gulp', 'growling', 'occupants', 'recognize', 'picture', 'differently', 'suspense', 'balefully'}
+{'gulp', 'growling', 'exhausted', 'occupants', 'recognize', 'differently', 'suspense', 'balefully'}
+{'gulp', 'protested', 'growling', 'occupants', 'recognize', 'differently', 'suspense', 'balefully'}
+{'gulp', 'growling', 'occupants', 'recognize', 'differently', 'reeling', 'suspense', 'balefully'}
+{'gulp', 'growling', 'occupants', 'recognize', 'refreshing', 'differently', 'suspense', 'balefully'}
+{'gulp', 'insects', 'growling', 'occupants', 'recognize', 'differently', 'suspense', 'balefully'}
+{'gulp', 'growling', 'flight', 'occupants', 'recognize', 'differently', 'suspense', 'balefully'}
+{'gulp', 'growling', 'occupants', 'recognize', 'differently', 'suspense', 'newfoundland', 'balefully'}
+{'gulp', 'growling', 'occupants', 'recognize', 'differently', 'suspense', 'gentlest', 'balefully'}
+{'gulp', 'growling', 'occupants', 'recognize', 'differently', 'tread', 'suspense', 'balefully'}
+{'gulp', 'growling', 'occupants', 'recognize', 'differently', 'indignantly', 'suspense', 'balefully'}
+{'gulp', 'growling', 'footsteps', 'occupants', 'recognize', 'differently', 'suspense', 'balefully'}
+{'judge', 'songs', 'beasts', 'motions', 'contest', 'rainbow', 'millions'}
+{'upset', 'sides', 'gravely', 'eyed', 'dissatisfaction', 'prey'}
+{'upset', 'sides', 'gravely', 'faint', 'dissatisfaction', 'prey'}
+{'beasts', 'monotony', 'motions', 'contest', 'rainbow', 'millions'}
+{'upset', 'sides', 'gravely', 'stolen', 'dissatisfaction', 'prey'}
+{'bureau', 'beasts', 'sinking', 'birches', 'contest', 'rainbow'}
+{'upset', 'sides', 'gravely', 'interrupted', 'dissatisfaction', 'prey'}
+{'upset', 'sides', 'gravely', 'grieved', 'dissatisfaction', 'prey'}
+{'collapse', 'stayed', 'neighbors', 'hated', 'irritable'}
+{'collapse', 'neighbors', 'confused', 'hated', 'irritable'}
+{'judge', 'songs', 'double', 'motions', 'millions'}
+{'collapse', 'neighbors', 'hated', 'faint', 'irritable'}
+{'peeked', 'collapse', 'neighbors', 'hated', 'irritable'}
+{'collapse', 'somersault', 'neighbors', 'hated', 'irritable'}
+{'collapse', 'hated', 'neighbors', 'stolen', 'irritable'}
+{'collapse', 'hated', 'neighbors', 'unconsciously', 'irritable'}
+{'judge', 'songs', 'ways', 'motions', 'millions'}
+{'afternoon', 'article', 'habit', 'sizzling', 'suffocated'}
+{'afternoon', 'article', 'habit', 'wallow', 'sizzling'}
+{'bureau', 'sinking', 'birches', 'offence', 'performance'}
+{'collapse', 'neighbors', 'boastfully', 'hated', 'irritable'}
+{'collapse', 'neighbors', 'chose', 'hated', 'irritable'}
+{'judge', 'songs', 'motions', 'millions', 'remembrance'}
+{'cartoon', 'won', 'didn', 'wasn'}
+{'question', 'rainbow', 'beasts', 'contest'}
+{'rainbow', 'beasts', 'contest', 'punishment'}
+{'rainbow', 'beasts', 'terror', 'contest'}
+{'rainbow', 'bacon', 'beasts', 'contest'}
+{'dignity', 'toothless', 'boxes', 'nervous'}
+{'colors', 'judge', 'songs', 'millions'}
+{'judge', 'motions', 'songs', 'owners'}
+{'bureau', 'sinking', 'previous', 'birches'}
+{'straw', 'rainbow', 'beasts', 'contest'}
+{'dignity', 'strutted', 'toothless', 'nervous'}
+{'bureau', 'sinking', 'birches', 'sunshine'}
+{'birches', 'sinking', 'bureau', 'wounds'}
+{'birches', 'sinking', 'truth', 'bureau'}
+{'bureau', 'sinking', 'occurrence', 'birches'}
+{'bureau', 'sinking', 'birches', 'collapsing'}
+{'birches', 'sinking', 'village', 'bureau'}
+{'bureau', 'coverlet', 'sinking', 'birches'}
+{'bureau', 'sinking', 'embankment', 'birches'}
+{'dignity', 'shuddered', 'toothless', 'nervous'}
+{'dignity', 'toothless', 'knows', 'nervous'}
+{'dignity', 'flannel', 'toothless', 'nervous'}
+{'dignity', 'women', 'toothless', 'nervous'}
+{'sore', 'toothless', 'dignity', 'nervous'}
+{'dignity', 'launched', 'toothless', 'nervous'}
+{'won', 'within', 'didn'}
+{'won', 'mustn', 'don'}
+{'dignity', 'merely', 'nervous'}
+{'middle', 'midst', 'pot'}
+{'opportunity', 'subside', 'eagerness'}
+{'chose', 'pet', 'captive'}
+{'dignity', 'backed', 'nervous'}
+{'bath', 'dream', 'elsewhere'}
+{'pile', 'motions', 'millions'}
+{'tone', 'bursting', 'scruff'}
+{'obedience', 'subside', 'eagerness'}
+{'undertake', 'subside', 'eagerness'}
+{'heat', 'subside', 'eagerness'}
+{'\n', '.'}
+{'buster', '\n'}
+{'.', ','}
+{'buster', 'he'}
+{'added', 'said'}
+{'cartoon', 'eaten'}
+{'cried', 'added'}
+{'added', 'stammered'}
+{'stammered', 'asked'}
+{'yes', 'oh'}
+{'stammered', 'called'}
+{'woodshed', 'return'}
+{'stolen', 'completely'}
+{'foundation', ']'}
+{'woodshed', 'attendant'}
+{'dazzled', 'covered'}
+{'wisdom', 'midst'}
+{'muscles', 'gentlest'}
+{'opportunity', 'gentlest'}
+{'yards', 'situation'}
+{'interrupted', 'stammered'}
+{'shuddered', 'surface'}
+{'purpose', 'apparently'}
+{'backed', 'somehow'}
+{'awkward', 'confused'}
+{'cow', 'neighing'}
+{'cross', 'tread'}
+{'insects', 'cross'}
+{'dazzled', 'flight'}
+{'stolen', 'different'}
+{'directly', 'shadow'}
+{'moo', 'dream'}
+{'pursuers', 'dream'}
+{'easier', 'threat'}
+{'hunting', 'entrance'}
+{'faster', 'tread'}
+{'awkward', 'faster'}
+{'fought', 'somehow'}
+{'belong', 'lie'}
+{'screw', 'lightning'}
+{'indignantly', 'pause'}
+{'possibly', 'stumbled'}
+{'belong', 'prefer'}
+{'splintering', 'round'}
+{'shuddered', 'savagely'}
+{'shuddered', 'shoulders'}
+{'shriek', 'moo'}
+{'stolen', 'henceforth'}
+{'stones', 'tread'}
+{'flight', 'stones'}
+{'awkward', 'strutted'}
+{'shuddered', 'swamps'}
+{'swimmer', 'runner'}
+{'table', 'streets'}
+{'wounds', 'gentlest'}
+{'wounds', 'tread'}
+{'awkward', 'envy'}
+{'awkward', 'flashed'}
+{'awkward', 'stung'}
+{'backward', 'tread'}
+{'bargain', 'fine'}
+{'indignantly', 'boasting'}
+{'dimples', 'cheek'}
+{'clearly', 'feels'}
+{'comer', 'jam'}
+{'valuable', 'cornered'}
+{'moo', 'couple'}
+{'crotch', 'peck'}
+{'dazed', 'general'}
+{'proportions', 'dodger'}
+{'footsteps', 'occurrence'}
+{'foundation', 'pillow'}
+{'foundation', 'respect'}
+{'happiness', 'gentlest'}
+{'hunting', 'meeting'}
+{'undertake', 'insects'}
+{'insects', 'stung'}
+{'insects', 'outright'}
+{'wading', 'jam'}
+{'spasm', 'moo'}
+{'streak', 'moo'}
+{'swept', 'net'}
+{'occur', 'unfamiliar'}
+{'shrewd', 'rattle'}
+{'scared', 'thereafter'}
+{'splintering', 'scratched'}
+{'splintering', 'smelling'}
+{'splintering', 'wallow'}
+{'yelped', 'whimper'}

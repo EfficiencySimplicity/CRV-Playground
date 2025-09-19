@@ -1,0 +1,200 @@
+Corpus Removal Threshold: 1
+
+Vectorizer Removal Threshold: 2
+
+Grouping Similarity: 0.6
+
+                         
+{'you', 'russia', 'and', 'england', ',', '<UNK>', 'germany', 'turkey', 'italy', 'me', 'it', 'austria', '.', 'france', 'that'}
+{'you', 'russia', 'and', 'england', ',', '<UNK>', 'germany', 'italy', 'me', 'it', 'just', 'austria', '.', 'france', 'that'}
+{'you', 'russia', 'and', 'england', ',', 'so', 'germany', '<UNK>', 'italy', 'it', 'just', '.', 'france', 'that'}
+{'you', 'russia', 'and', 'england', ',', 'so', 'germany', '<UNK>', 'italy', 'then', 'it', '.', 'france', 'that'}
+{'you', 'russia', 'and', 'england', ',', '<UNK>', 'germany', 'italy', 'this', 'it', '.', 'france', 'that'}
+{'you', 'russia', 'england', ',', 'so', 'germany', '<UNK>', 'italy', 'there', 'it', '.', 'france', 'that'}
+{'you', 'russia', 'england', ',', '<UNK>', 'germany', 'turkey', 'italy', 'there', 'it', '.', 'france', 'that'}
+{'russia', 'and', 'england', ',', 'so', 'germany', '<UNK>', 'italy', 'now', 'then', '.', 'france', 'that'}
+{'you', 'russia', 'them', 'england', '<UNK>', 'germany', 'turkey', 'him', 'italy', 'me', 'austria', 'france'}
+{'you', 'and', 'i', ',', 'so', 'if', 'it', 'just', 'but', '.', 'that'}
+{'we', 'you', 'and', 'i', ',', 'so', 'if', 'it', 'just', 'but', 'that'}
+{'you', 'and', 'i', 'so', ',', '<START>', 'if', 'but', '.', 'that'}
+{'you', 'and', 'i', ',', 'so', 'italy', 'it', 'just', '.', 'that'}
+{'you', 'that', 'and', ',', '<UNK>', 'me', 'just', '.', 'france', 'to'}
+{'you', 'and', ',', 'so', 'if', 'then', 'it', 'but', '.', 'that'}
+{'you', 'also', 'i', ',', 'so', 'if', 'it', 'just', 'but', 'that'}
+{'do', 'you', 'i', ',', 'so', 'if', 'just', '.', 'that'}
+{'or', 'and', ',', 'with', '<UNK>', 'for', '.', 'to', 'in'}
+{'have', 'you', 'and', ',', 'so', '<UNK>', 'just', '.', 'that'}
+{'do', 'you', 'i', ',', 'so', 'if', 'just', 'also', 'that'}
+{'and', 'on', '<UNK>', '.', 'in', 'for', 'to', 'with'}
+{'you', 'that', 'and', ',', '<UNK>', 'the', '.', 'to'}
+{'that', 'and', ',', '<UNK>', 'a', 'the', '.', 'to'}
+{'and', ',', '<UNK>', '.', 'the', 'for', 'to', 'in'}
+{'you', 'and', ',', '<UNK>', 'this', 'the', '.', 'that'}
+{'you', 'and', '<UNK>', ',', 'this', '?', '.', 'that'}
+{'have', 'do', 'you', ',', 'so', 'just', '.', 'that'}
+{'is', 'and', ',', '<UNK>', 'in', 'for', '.', 'with'}
+{'you', 'i', ',', 'italy', 'he', 'just', 'it', 'that'}
+{'you', 'also', 'i', 'so', 'actually', 'just', 'it', 'that'}
+{'you', 'and', 'so', ',', 'if', 'but', 'can', 'that'}
+{'you', 'russia', ',', 'italy', 'he', 'just', 'it', 'that'}
+{'or', 'you', 'and', ',', '<UNK>', '.', 'to'}
+{'and', '<UNK>', ',', '.', 'france', 'to', 'with'}
+{'or', 'you', 'and', '<UNK>', ',', '.', '?'}
+{'or', 'you', 'and', ',', '<UNK>', 'then', '.'}
+{'and', ',', '<UNK>', '.', 'this', 'the', 'for'}
+{'that', 'and', '<UNK>', ',', '?', '.', 'now'}
+{'as', 'and', '<UNK>', ',', 'so', '.', 'that'}
+{'you', 'i', ',', 'not', 'just', 'it', 'that'}
+{'you', 'i', 'not', 'really', 'just', 'it', 'that'}
+{'you', 'i', 'really', 'actually', 'just', 'it', 'that'}
+{'think', ',', 'so', '<START>', 'if', 'but', 'that'}
+{'have', 'you', 'and', ',', 'so', 'can', 'that'}
+{'and', 'so', 'because', ',', 'if', 'but', 'that'}
+{'do', 'think', ',', 'so', 'if', 'also', 'that'}
+{'think', ',', 'so', 'if', 'but', 'can', 'that'}
+{'think', ',', 'so', 'if', 'but', 'also', 'that'}
+{'you', 'i', 'he', 'they', 'it', 'that'}
+{'we', 'you', 'i', 'they', 'it', 'that'}
+{'or', 'from', 'and', 'in', 'to', 'with'}
+{'<UNK>', 'on', 'in', 'for', 'of', 'with'}
+{'support', 'help', 'move', 'take', 'go', 'get'}
+{'worsen', 'haven', 'won', 'thirteen', 'don', 'within'}
+{'and', ',', 'to', '.', 'will'}
+{'and', ',', 'if', 'could', 'can'}
+{'and', ',', 'could', 'can', 'will'}
+{'would', ',', 'could', 'can', 'will'}
+{'so', 'if', 'it', 'what', 'that'}
+{'think', 'so', 'if', 'what', 'that'}
+{'would', 'should', 'could', 'can', 'will'}
+{'.', 'for', 'and', '<END>'}
+{'(', '.', 'and', ','}
+{'.', 'all', 'that', '<UNK>'}
+{')', '.', '?', '<UNK>'}
+{'though', '.', 'now', 'so'}
+{'though', '.', 'but', 'so'}
+{'move', ',', 'and', '<UNK>'}
+{'move', 'take', 'get', 'and'}
+{'how', 'if', 'what', 'that'}
+{'since', 'if', 'but', 'so'}
+{'do', 'think', 'say', 'know'}
+{'do', 'know', 'say', 'tell'}
+{'believe', 'think', 'say', 'know'}
+{'may', 'would', 'might', 'will'}
+{'should', 'would', 'might', 'will'}
+{'move', 'take', 'get', 'hold'}
+{'move', 'take', 'attack', 'hold'}
+{'eaten', 'don', 'haven', 'thirteen'}
+{'won', 'thirteen', 'iron', 'don'}
+{'ask', 'know', 'say', 'tell'}
+{'yeah', 'ok', 'okay', 'alright'}
+{'yeah', 'yes', 'ok', 'okay'}
+{'belgium', 'brest', 'sweden', 'norway'}
+{'belgium', 'sweden', 'denmark', 'norway'}
+{'.', '!', '?'}
+{'the', 'you', 'your'}
+{'the', 'my', '<UNK>'}
+{'the', 'my', 'your'}
+{'have', 'get', 'and'}
+{'probably', 'that', 'it'}
+{'if', 'then', 'maybe'}
+{'with', 'about', '<UNK>'}
+{'with', 'out', '<UNK>'}
+{'have', 'can', 'need'}
+{'can', 'want', 'need'}
+{'do', 'know', 'see'}
+{'do', 'think', 'agree'}
+{'think', 'said', 'say'}
+{'believe', 'think', 'assume'}
+{'take', 'get', 'keep'}
+{'move', 'bounce', 'take'}
+{'season', 'turn', 'year'}
+{'cool', 'ok', 'okay'}
+{'dozen', 'won', 'thirteen'}
+{'thirteen', 'weren', 'iron'}
+{'belgium', 'munich', 'denmark'}
+{'hello', 'hey', 'hi'}
+{'won', 'within', 'isn'}
+{'dozen', 'won', 'isn'}
+{'west', 'east', 'south'}
+{'ty', '🎉', 'naughty'}
+{'.', ':'}
+{"'", '’'}
+{'-', 'and'}
+{'while', 'and'}
+{'like', 'that'}
+{'if', 'when'}
+{'is', 'was'}
+{'moves', '<UNK>'}
+{'plan', '<UNK>'}
+{'up', '<UNK>'}
+{'game', '<UNK>'}
+{'way', '<UNK>'}
+{'one', '<UNK>'}
+{'get', 'be'}
+{'\n', '-'}
+{'have', 'had'}
+{'well', 'so'}
+{'what', 'why'}
+{'think', 'imagine'}
+{'think', 'suppose'}
+{'think', 'guess'}
+{'think', 'hope'}
+{'think', 'mean'}
+{'think', 'doubt'}
+{'thought', 'think'}
+{'were', 'are'}
+{'still', 'just'}
+{'d', 'll'}
+{'move', 'convoy'}
+{'move', 'moving'}
+{'going', 'trying'}
+{'going', 'gonna'}
+{'good', 'great'}
+{'yeah', 'well'}
+{'yeah', 'yep'}
+{'yeah', 'oh'}
+{'yeah', 'nah'}
+{'army', 'fleet'}
+{'help', 'work'}
+{'trust', 'help'}
+{'2', '1'}
+{'0', '1'}
+{'attack', 'stab'}
+{'west', 'north'}
+{'black', 'north'}
+{'moving', 'supporting'}
+{'0', '9'}
+{'trust', 'tell'}
+{'fall', 'spring'}
+{'said', 'told'}
+{'sev', 'rum'}
+{'bul', 'rum'}
+{'tri', 'rum'}
+{'bud', 'rum'}
+{'mun', 'ber'}
+{'greece', 'denmark'}
+{'told', 'tell'}
+{'told', 'asked'}
+{'looks', 'seems'}
+{'fleets', 'units'}
+{'fleets', 'armies'}
+{'2', '4'}
+{'oh', 'ah'}
+{'nth', 'nwy'}
+{'worried', 'concerned'}
+{'talked', 'spoken'}
+{'convince', 'persuade'}
+{'firstly', 'aye'}
+{'whoops', 'mhm'}
+{'buongiorno', 'bongiorno'}
+{'html', 'htm'}
+{'mhm', 'kk'}
+{'omg', 'mhm'}
+{'scratch', 'roger'}
+{'🤗', 'mhm'}
+{'garrison', 'beleagured'}
+{'catholicism', 'eradicate'}
+{'gambler', 'driver'}
+{'eloquent', 'fluidity'}
+{'kitsune', 'tsk'}
+{'н', 'е'}
