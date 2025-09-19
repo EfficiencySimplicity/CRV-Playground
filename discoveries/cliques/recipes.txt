@@ -3,271 +3,272 @@ Corpus Removal Threshold: 1
 Vectorizer Removal Threshold: 2
 
 Grouping Similarity: 0.6
- 
-{'milk', 'cocoa', 'ketchup', 'cornstarch', 'shortening', 'flour', 'sugar', 'molasses', 'mayonnaise', 'honey'}
-{'milk', 'ketchup', 'cornstarch', 'shortening', 'flour', 'sugar', 'mayonnaise', 'vinegar', 'honey'}
-{'margarine', 'milk', 'butter', 'shortening', 'flour', 'sugar', 'molasses', 'mayonnaise', 'honey'}
-{'milk', 'butter', 'cornstarch', 'shortening', 'flour', 'sugar', 'molasses', 'mayonnaise', 'honey'}
-{'milk', 'cocoa', 'ketchup', 'cornstarch', 'shortening', 'catsup', 'sugar', 'molasses', 'mayonnaise'}
-{'kim', 'rachel', 'judy', 'mama', 'carol', 'helen', 'dad', 'grandma', 'gail'}
-{'kim', 'rachel', 'oma', 'judy', 'mama', 'carol', 'helen', 'dad', 'gail'}
-{'kim', 'rachel', 'judy', 'mama', 'linda', 'carol', 'helen', 'dad', 'gail'}
-{'kim', 'ann', 'rachel', 'judy', 'linda', 'carol', 'helen', 'dad', 'gail'}
-{'kim', 'rachel', 'judy', 'sally', 'katie', 'carol', 'dad', 'santa', 'gail'}
-{'milk', 'water', 'ketchup', 'shortening', 'flour', 'sugar', 'mayonnaise', 'buttermilk'}
-{'milk', 'ketchup', 'shortening', 'flour', 'sugar', 'molasses', 'mayonnaise', 'buttermilk'}
-{'milk', 'ketchup', 'shortening', 'flour', 'sugar', 'raisins', 'mayonnaise', 'buttermilk'}
-{'kim', 'rachel', 'mom', 'judy', 'carol', 'helen', 'dad', 'gail'}
-{'kim', 'rachel', 'judy', 'carol', 'helen', 'dad', 'gail', 'shepherd'}
-{'kim', 'rachel', 'judy', 'carol', 'helen', 'dad', 'gail', 'kevin'}
-{'bisquick', 'ketchup', 'shortening', 'flour', 'sugar', 'mayonnaise', 'buttermilk'}
-{'milk', 'ketchup', 'shortening', 'catsup', 'sugar', 'raisins', 'mayonnaise'}
-{'milk', 'water', 'butter', 'shortening', 'flour', 'sugar', 'mayonnaise'}
-{'oregano', 'salt', 'turmeric', 'cinnamon', 'allspice', 'nutmeg', 'paprika'}
-{'oregano', 'salt', 'turmeric', 'cinnamon', 'allspice', 'cumin', 'nutmeg'}
-{'kim', 'rachel', 'judy', 'carol', 'dad', 'marie', 'gail'}
-{'2', '3', '1', '6', '4', '8'}
-{'milk', 'water', 'butter', 'shortening', 'oil', 'sugar'}
-{'salt', 'cornstarch', 'cinnamon', 'vanilla', 'nutmeg', 'paprika'}
-{'salt', 'cinnamon', 'vanilla', 'allspice', 'nutmeg', 'paprika'}
-{'oregano', 'tarragon', 'basil', 'rosemary', 'parsley', 'thyme'}
-{'and', ',', 'in', 'the', 'with'}
-{'pour', 'add', 'mix', 'stir', 'put'}
-{'blend', 'beat', 'add', 'mix', 'stir'}
-{'salt', 'cornstarch', 'cinnamon', 'sugar', 'honey'}
-{'salt', 'cornstarch', 'cinnamon', 'vanilla', 'sugar'}
-{'mustard', 'salt', 'cornstarch', 'cinnamon', 'honey'}
-{'oregano', 'salt', 'cinnamon', 'pepper', 'nutmeg'}
-{'salt', 'turmeric', 'cinnamon', 'soda', 'nutmeg'}
-{'salt', 'cinnamon', 'vanilla', 'soda', 'nutmeg'}
-{'cornmeal', 'cocoa', 'ketchup', 'flour', 'mayonnaise'}
-{'milk', 'ketchup', 'applesauce', 'molasses', 'buttermilk'}
-{'cinnamon', 'turmeric', 'cumin', 'nutmeg', 'ginger'}
-{'turmeric', 'mace', 'allspice', 'cumin', 'nutmeg'}
-{'2', '1', '-', '4'}
-{';', 'the', 'then', 'and'}
-{'0', '3', '5', '7'}
-{'qt', 'c', 'tbsp', 'tsp'}
-{'add', 'combine', 'mix', 'blend'}
-{'add', 'place', 'pour', 'put'}
-{'cayenne', 'nutmeg', 'salt', 'paprika'}
-{'mince', 'seconds', 'minutes', 'min'}
-{'pour', 'put', 'mix', 'spread'}
-{'stir', 'mix', 'whisk', 'beat'}
-{'margarine', 'oleo', 'shortening', 'butter'}
-{'onion', 'onions', 'mushrooms', 'tomatoes'}
-{'onion', 'carrots', 'onions', 'mushrooms'}
-{'place', 'pour', 'put', 'spread'}
-{'pecans', 'nuts', 'raisins', 'walnuts'}
-{'parsley', 'thyme', 'basil', 'mint'}
-{'parsley', 'basil', 'cilantro', 'chives'}
-{'mozzarella', 'cheddar', 'swiss', 'parmesan'}
-{'oregano', 'thyme', 'basil', 'sage'}
-{'constantly', 'occasionally', 'frequently', 'often'}
-{'snickerdoodles', 'jambalaya', 'romanoff', 'colcannon'}
-{'snickerdoodles', 'jambalaya', 'wassail', 'colcannon'}
-{'snickerdoodles', 'jambalaya', 'florentine', 'colcannon'}
-{'snickerdoodles', 'jambalaya', 'crinkles', 'colcannon'}
-{'crinkles', 'blossom', 'blossoms', 'colcannon'}
+
+                         
+{'cornstarch', 'milk', 'sugar', 'cocoa', 'shortening', 'molasses', 'flour', 'ketchup', 'honey', 'mayonnaise'}
+{'cornstarch', 'milk', 'sugar', 'shortening', 'flour', 'ketchup', 'honey', 'vinegar', 'mayonnaise'}
+{'milk', 'butter', 'sugar', 'shortening', 'flour', 'molasses', 'margarine', 'honey', 'mayonnaise'}
+{'cornstarch', 'milk', 'butter', 'sugar', 'shortening', 'molasses', 'flour', 'honey', 'mayonnaise'}
+{'cornstarch', 'milk', 'catsup', 'sugar', 'cocoa', 'shortening', 'molasses', 'ketchup', 'mayonnaise'}
+{'gail', 'mama', 'dad', 'grandma', 'helen', 'rachel', 'carol', 'kim', 'judy'}
+{'gail', 'mama', 'kim', 'dad', 'helen', 'rachel', 'carol', 'oma', 'judy'}
+{'gail', 'mama', 'dad', 'helen', 'rachel', 'carol', 'kim', 'judy', 'linda'}
+{'gail', 'dad', 'ann', 'helen', 'rachel', 'carol', 'kim', 'judy', 'linda'}
+{'gail', 'dad', 'santa', 'rachel', 'carol', 'sally', 'kim', 'judy', 'katie'}
+{'buttermilk', 'milk', 'sugar', 'water', 'shortening', 'flour', 'ketchup', 'mayonnaise'}
+{'buttermilk', 'milk', 'sugar', 'shortening', 'molasses', 'flour', 'ketchup', 'mayonnaise'}
+{'buttermilk', 'milk', 'sugar', 'shortening', 'flour', 'ketchup', 'raisins', 'mayonnaise'}
+{'gail', 'mom', 'dad', 'helen', 'rachel', 'carol', 'kim', 'judy'}
+{'gail', 'dad', 'helen', 'rachel', 'carol', 'kim', 'judy', 'shepherd'}
+{'gail', 'dad', 'kevin', 'helen', 'rachel', 'carol', 'kim', 'judy'}
+{'buttermilk', 'sugar', 'shortening', 'flour', 'ketchup', 'mayonnaise', 'bisquick'}
+{'milk', 'catsup', 'sugar', 'shortening', 'ketchup', 'raisins', 'mayonnaise'}
+{'milk', 'butter', 'sugar', 'water', 'shortening', 'flour', 'mayonnaise'}
+{'paprika', 'turmeric', 'oregano', 'cinnamon', 'nutmeg', 'allspice', 'salt'}
+{'turmeric', 'oregano', 'cinnamon', 'cumin', 'nutmeg', 'allspice', 'salt'}
+{'gail', 'dad', 'marie', 'rachel', 'carol', 'kim', 'judy'}
+{'2', '3', '1', '8', '6', '4'}
+{'milk', 'butter', 'sugar', 'oil', 'water', 'shortening'}
+{'cornstarch', 'paprika', 'cinnamon', 'nutmeg', 'vanilla', 'salt'}
+{'paprika', 'cinnamon', 'nutmeg', 'allspice', 'vanilla', 'salt'}
+{'rosemary', 'tarragon', 'basil', 'oregano', 'parsley', 'thyme'}
+{'the', 'in', ',', 'with', 'and'}
+{'mix', 'add', 'pour', 'put', 'stir'}
+{'blend', 'mix', 'add', 'beat', 'stir'}
+{'cornstarch', 'sugar', 'cinnamon', 'honey', 'salt'}
+{'cornstarch', 'sugar', 'cinnamon', 'vanilla', 'salt'}
+{'cornstarch', 'cinnamon', 'mustard', 'honey', 'salt'}
+{'pepper', 'oregano', 'cinnamon', 'nutmeg', 'salt'}
+{'turmeric', 'cinnamon', 'nutmeg', 'soda', 'salt'}
+{'cinnamon', 'nutmeg', 'soda', 'vanilla', 'salt'}
+{'cocoa', 'flour', 'ketchup', 'mayonnaise', 'cornmeal'}
+{'buttermilk', 'milk', 'molasses', 'ketchup', 'applesauce'}
+{'turmeric', 'cinnamon', 'cumin', 'nutmeg', 'ginger'}
+{'mace', 'turmeric', 'cumin', 'nutmeg', 'allspice'}
+{'2', '1', '4', '-'}
+{'the', 'and', ';', 'then'}
+{'3', '7', '5', '0'}
+{'tbsp', 'tsp', 'qt', 'c'}
+{'mix', 'combine', 'blend', 'add'}
+{'put', 'pour', 'place', 'add'}
+{'nutmeg', 'cayenne', 'paprika', 'salt'}
+{'seconds', 'min', 'mince', 'minutes'}
+{'spread', 'put', 'pour', 'mix'}
+{'beat', 'stir', 'whisk', 'mix'}
+{'oleo', 'shortening', 'margarine', 'butter'}
+{'onions', 'onion', 'mushrooms', 'tomatoes'}
+{'onions', 'mushrooms', 'onion', 'carrots'}
+{'spread', 'put', 'pour', 'place'}
+{'raisins', 'nuts', 'walnuts', 'pecans'}
+{'thyme', 'basil', 'parsley', 'mint'}
+{'cilantro', 'chives', 'basil', 'parsley'}
+{'swiss', 'parmesan', 'mozzarella', 'cheddar'}
+{'oregano', 'sage', 'thyme', 'basil'}
+{'constantly', 'frequently', 'often', 'occasionally'}
+{'romanoff', 'snickerdoodles', 'jambalaya', 'colcannon'}
+{'wassail', 'snickerdoodles', 'jambalaya', 'colcannon'}
+{'snickerdoodles', 'florentine', 'jambalaya', 'colcannon'}
+{'snickerdoodles', 'crinkles', 'jambalaya', 'colcannon'}
+{'blossoms', 'colcannon', 'blossom', 'crinkles'}
 {'.', '\n', '-'}
 {'.', '1', '-'}
-{'qt', 'gal', 'c'}
-{'qt', 'c', 'pt'}
-{'cup', 'c', 'cups'}
-{'cup', 'cups', 'tablespoons'}
-{'milk', 'add', 'mix'}
-{'add', 'stir', 'cook'}
-{'shortening', 'sugar', 'crisco'}
-{'milk', 'coconut', 'sugar'}
-{'oregano', 'thyme', 'salt'}
-{'powder', 'salt', 'soda'}
-{'°', 'minutes', 'min'}
-{'together', 'mix', 'combine'}
-{'milk', 'mix', 'flour'}
-{'chopped', 'minced', 'diced'}
-{'chopped', 'diced', 'sliced'}
-{'onion', 'onions', 'celery'}
-{'fry', 'cook', 'saute'}
+{'gal', 'qt', 'c'}
+{'c', 'qt', 'pt'}
+{'c', 'cup', 'cups'}
+{'cup', 'tablespoons', 'cups'}
+{'mix', 'milk', 'add'}
+{'stir', 'cook', 'add'}
+{'crisco', 'shortening', 'sugar'}
+{'milk', 'sugar', 'coconut'}
+{'oregano', 'salt', 'thyme'}
+{'salt', 'soda', 'powder'}
+{'min', 'minutes', '°'}
+{'combine', 'together', 'mix'}
+{'milk', 'flour', 'mix'}
+{'diced', 'minced', 'chopped'}
+{'sliced', 'diced', 'chopped'}
+{'onions', 'onion', 'celery'}
+{'cook', 'fry', 'saute'}
 {'f', 'degrees', '°'}
-{'orange', 'lemon', 'lime'}
-{'apples', 'potatoes', 'carrots'}
-{'vinegar', 'sherry', 'ketchup'}
-{'worcestershire', 'soy', 'tabasco'}
-{'powdered', 'granulated', 'confectioners'}
-{'oregano', 'thyme', 'marjoram'}
-{'raspberries', 'strawberries', 'blueberries'}
+{'lime', 'lemon', 'orange'}
+{'carrots', 'apples', 'potatoes'}
+{'ketchup', 'sherry', 'vinegar'}
+{'tabasco', 'soy', 'worcestershire'}
+{'granulated', 'confectioners', 'powdered'}
+{'marjoram', 'oregano', 'thyme'}
+{'blueberries', 'raspberries', 'strawberries'}
 {'pinto', 'kidney', 'navy'}
 {'pinto', 'kidney', 'lima'}
-{'delight', 'snappers', 'colcannon'}
+{'snappers', 'delight', 'colcannon'}
 {'helen', 'mama', 'grandpa'}
 {'snickerdoodles', 'daiquiri', 'colcannon'}
 {'snickerdoodles', 'hamburgers', 'colcannon'}
 {'caviar', 'pralines', 'colcannon'}
-{'tetrazzini', 'quesadillas', 'colcannon'}
+{'quesadillas', 'tetrazzini', 'colcannon'}
 {'mud', 'bible', 'earthquake'}
-{'julius', 'wassail', 'blossom'}
+{'wassail', 'julius', 'blossom'}
 {'wassail', 'blossom', 'colcannon'}
-{'bible', 'earthquake', 'eclair'}
-{'oma', 'girl', 'helen'}
+{'eclair', 'bible', 'earthquake'}
+{'helen', 'oma', 'girl'}
 {'daiquiri', 'blossom', 'colcannon'}
 {'snappers', 'popsicles', 'colcannon'}
 {'sauerbraten', 'popsicles', 'colcannon'}
-{'independent', 'financial', 'melbourne'}
+{'independent', 'melbourne', 'financial'}
 {'independent', 'melbourne', 'services'}
-{'road', 'sauerbraten', 'popsicles'}
-{'rocky', 'road', 'sauerbraten'}
-{'(', '.'}
+{'popsicles', 'road', 'sauerbraten'}
+{'sauerbraten', 'road', 'rocky'}
+{'.', '('}
 {'.', ','}
 {'add', ','}
-{'or', ','}
-{'&', 'and'}
-{'/', '\\'}
-{'into', 'in'}
-{'lb', 'c'}
-{'a', 'the'}
-{'directions', 'ingredients'}
+{',', 'or'}
+{'and', '&'}
+{'\\', '/'}
+{'in', 'into'}
+{'c', 'lb'}
+{'the', 'a'}
+{'ingredients', 'directions'}
 {')', '6'}
 {'for', '5'}
 {'until', 'till'}
-{'salt', 'garlic'}
-{'minutes', 'minute'}
+{'garlic', 'salt'}
+{'minute', 'minutes'}
 {'minutes', 'hours'}
 {'teaspoon', 'tsp'}
 {'milk', 'cream'}
-{'teaspoons', 'teaspoon'}
+{'teaspoon', 'teaspoons'}
 {'tbsp', 'tablespoons'}
-{'tbs', 'tbsp'}
-{'can', 'cans'}
+{'tbsp', 'tbs'}
+{'cans', 'can'}
 {'onion', 'garlic'}
-{'beef', 'chicken'}
+{'chicken', 'beef'}
 {'heat', 'cook'}
 {'small', 'large'}
-{'large', 'medium'}
+{'medium', 'large'}
 {'stir', 'fold'}
-{'oz', 'ounce'}
-{'oz', 'pkg'}
-{'dish', 'pan'}
-{'pans', 'pan'}
-{'eggs', 'egg'}
-{'eggs', 'yolks'}
+{'ounce', 'oz'}
+{'pkg', 'oz'}
+{'pan', 'dish'}
+{'pan', 'pans'}
+{'egg', 'eggs'}
+{'yolks', 'eggs'}
 {'cook', 'simmer'}
-{'ac', '°'}
-{'bowl', 'saucepan'}
-{'juice', 'zest'}
-{'med', 'medium'}
+{'°', 'ac'}
+{'saucepan', 'bowl'}
+{'zest', 'juice'}
+{'medium', 'med'}
 {'arrange', 'place'}
 {'well', 'thoroughly'}
-{'well', 'together'}
+{'together', 'well'}
 {'spoon', 'pour'}
 {'teaspoons', 'tablespoons'}
 {'top', 'sprinkle'}
-{'lb', 'lbs'}
+{'lbs', 'lb'}
 {'approximately', 'about'}
-{'honey', 'lemon'}
-{'green', 'bell'}
+{'lemon', 'honey'}
+{'bell', 'green'}
 {'green', 'celery'}
 {'green', 'red'}
 {'onions', 'peppers'}
 {'9', 'x'}
 {'drizzle', 'sprinkle'}
-{'sprinkle', 'spread'}
-{'hot', 'warm'}
+{'spread', 'sprinkle'}
+{'warm', 'hot'}
 {'margarine', 'melted'}
-{'boil', 'bring'}
-{'grated', 'shredded'}
+{'bring', 'boil'}
+{'shredded', 'grated'}
 {'melt', 'melted'}
 {'softened', 'melted'}
 {'sour', 'whipping'}
-{'sour', 'whipped'}
-{'hrs', 'hours'}
+{'whipped', 'sour'}
+{'hours', 'hrs'}
 {'canola', 'olive'}
-{'vegetable', 'olive'}
+{'olive', 'vegetable'}
 {'cubed', 'diced'}
 {'undrained', 'drained'}
 {'minute', 'hour'}
 {'low', 'high'}
 {'cayenne', 'black'}
 {'bring', 'return'}
-{'cubes', 'pieces'}
+{'pieces', 'cubes'}
 {'tender', 'done'}
 {'skillet', 'saucepan'}
 {'skillet', 'pot'}
 {'buttered', 'greased'}
 {'coarsely', 'finely'}
 {'broth', 'stock'}
-{'sheet', 'sheets'}
+{'sheets', 'sheet'}
 {'blended', 'smooth'}
-{'refrigerate', 'chill'}
+{'chill', 'refrigerate'}
 {'stick', 'sticks'}
-{'spinach', 'broccoli'}
+{'broccoli', 'spinach'}
 {'f', 'fahrenheit'}
 {'cold', 'boiling'}
-{'chili', 'curry'}
-{'chill', 'freeze'}
+{'curry', 'chili'}
+{'freeze', 'chill'}
 {'zucchini', 'carrots'}
-{'cold', 'warm'}
+{'warm', 'cold'}
 {'sherry', 'wine'}
-{'romano', 'parmesan'}
-{'yields', 'makes'}
-{'serves', 'makes'}
-{'shell', 'crust'}
+{'parmesan', 'romano'}
+{'makes', 'yields'}
+{'makes', 'serves'}
+{'crust', 'shell'}
 {'divided', 'softened'}
-{'next', 'first'}
+{'first', 'next'}
 {'reduce', 'lower'}
 {'flavoring', 'extract'}
-{'fridge', 'refrigerator'}
-{'blended', 'combined'}
+{'refrigerator', 'fridge'}
+{'combined', 'blended'}
 {'pinch', 'dash'}
 {'soya', 'worcestershire'}
-{'covered', 'uncovered'}
+{'uncovered', 'covered'}
 {'stand', 'sit'}
 {'rind', 'peel'}
-{'whites', 'yolks'}
-{'mozzarella', 'velveeta'}
+{'yolks', 'whites'}
+{'velveeta', 'mozzarella'}
 {'people', 'servings'}
 {'lbs', 'pounds'}
-{'zest', 'rind'}
-{'gelatin', 'jello'}
-{'evaporated', 'pet'}
+{'rind', 'zest'}
+{'jello', 'gelatin'}
+{'pet', 'evaporated'}
 {'sifted', 'unsifted'}
 {'granulated', 'superfine'}
-{'sea', 'kosher'}
+{'kosher', 'sea'}
 {'raising', 'rising'}
 {'garbanzo', 'kidney'}
-{'waxed', 'wax'}
+{'wax', 'waxed'}
 {'coriander', 'turmeric'}
-{'days', 'weeks'}
+{'weeks', 'days'}
 {'american', 'swiss'}
-{'note', 'notes'}
-{'pimento', 'pimiento'}
+{'notes', 'note'}
+{'pimiento', 'pimento'}
 {'boned', 'deboned'}
-{'cracklins', 'scalded'}
-{'foamy', 'frothy'}
-{'overcook', 'overbake'}
+{'scalded', 'cracklins'}
+{'frothy', 'foamy'}
+{'overbake', 'overcook'}
 {'romanoff', 'scalloped'}
-{'mace', 'accent'}
+{'accent', 'mace'}
 {'freezes', 'reheats'}
 {'impossible', 'praline'}
 {'turtle', 'katie'}
 {'turtle', 'bible'}
-{'patti', 'caviar'}
-{'mandolin', 'shave'}
+{'caviar', 'patti'}
+{'shave', 'mandolin'}
 {'monkey', 'colcannon'}
-{'overbake', 'overmix'}
-{'alphabet', 'overmix'}
+{'overmix', 'overbake'}
+{'overmix', 'alphabet'}
 {'tamale', 'cheeseburger'}
 {'emery', 'blonde'}
-{'tetrazzini', 'cacciatore'}
+{'cacciatore', 'tetrazzini'}
 {'fantasy', 'colcannon'}
 {'gala', 'braeburn'}
 {'helen', 'maw'}
 {'patti', 'maw'}
-{'nutmeats', 'cracklins'}
+{'cracklins', 'nutmeats'}
 {'paring', 'serrated'}
 {'photograph', 'ray'}
-{'independent', 'photograph'}
-{'taverns', 'anna'}
-{'bee', 'bumble'}
+{'photograph', 'independent'}
+{'anna', 'taverns'}
+{'bumble', 'bee'}
 {'ultimate', 'bible'}
 {'snowballs', 'colcannon'}
 {'jubilee', 'colcannon'}
@@ -278,11 +279,11 @@ Grouping Similarity: 0.6
 {'cosmopolitan', 'colcannon'}
 {'watergate', 'colcannon'}
 {'dredging', 'toasting'}
-{'financial', 'ko'}
-{'holy', 'spirit'}
+{'ko', 'financial'}
+{'spirit', 'holy'}
 {'independent', 'mas'}
 {'sam', 'john'}
-{'ko', 'tex'}
+{'tex', 'ko'}
 {'management', 'property'}
-{'mex', 'tex'}
-{'worchester', 'worchestershire'}
+{'tex', 'mex'}
+{'worchestershire', 'worchester'}

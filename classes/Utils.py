@@ -145,11 +145,14 @@ def print_scanned_text(scanned_text, normalize = True):
     print(result)
 
 
+################ Sentence Management ################
 
 
-_skip_chars   = ' '
-_concat_chars = 'qwertyuiopasdfghjklzxcvbnm'
+# skip spaces, concat letters into words
+SKIP_CHARS   = ' '
+CONCAT_CHARS = 'qwertyuiopasdfghjklzxcvbnmàáâãäåæçèéêëìíîïðñòóôõöøùúûüýÿ'
     
+# split a sentence into words or characters
 def split_sentence(
         sentence,
         mode         = 'word',
@@ -162,8 +165,8 @@ def split_sentence(
         
     elif mode == 'word':
 
-        skip_chars   = skip_chars   or _skip_chars
-        concat_chars = concat_chars or _concat_chars
+        skip_chars   = skip_chars   or SKIP_CHARS
+        concat_chars = concat_chars or CONCAT_CHARS
 
         splitted_sentence = []
         current_word      = ''
@@ -191,6 +194,7 @@ def split_sentence(
     else:
         return splitted_sentence
 
+# concatenate a list of words or chracters into a string
 def concat_sentence(sentence, mode = 'word'):
     return ('' if mode == 'char' else ' ').join(sentence)
 

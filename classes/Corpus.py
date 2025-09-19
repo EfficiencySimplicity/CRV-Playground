@@ -5,20 +5,20 @@ from itertools import *
 import numpy as np
 import json
 
-from classes.Utils import *
-from classes.CRV import *
-from classes.Vectorizer import *
+from classes.utils import *
+from classes.crv import *
+from classes.vectorizer import *
 
 
 ################ The Corpus Class ################
 #
-# -Stores a list of sentences and information about them
-# -Loads and cleans data
-# -Optionally lemmatizes (cleanliness -> clean ly ness) and corrects spelling errors
-# -Splits each sentence into a list of words
-# -Collects information
-# -Creates CRVs
-# -Creates a vectorizer
+# - Stores a list of sentences and information about them
+# - Loads and cleans data
+# - Optionally lemmatizes (cleanliness -> clean ly ness) and corrects spelling errors
+# - Splits each sentence into a list of words
+# - Collects information
+# - Creates CRVs
+# - Creates a vectorizer
 
 
 class Corpus:

@@ -1,6 +1,10 @@
-from classes.Utils import *
+from classes.utils import *
 
 ################ Composite Representation Vectors ################
+#
+# - Stores a dict of words and co-occurrence frequencies
+# - prints them in clean format
+# - Performs operations on these dicts (add, sum, div, etc.)
 
 class CRV:
     

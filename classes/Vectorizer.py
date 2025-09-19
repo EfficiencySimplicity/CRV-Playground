@@ -1,11 +1,15 @@
-import matplotlib.pyplot as plt
 from itertools import *
 import numpy as np
-import random
 
-from classes.Utils import *
-from classes.CRV import *
+from classes.utils import *
+from classes.crv import *
 
+################ The Vectorizer Class ################
+#
+# - Quickly compares words to each other and converts between formats
+# - Stores a matrix of word: co-occurence frequency with others
+# - Stores a vocabulary of all encoded words
+# - Stores a vocabulary of all words used for encoding
 
 class Vectorizer:
     def __init__(self, vocab, matrix, embedding_vocab = None):
@@ -132,6 +136,10 @@ class Vectorizer:
                 ratings = 1 - np.sum(abs(sequence - vector), axis = 1)
             elif mode == 'mult':
                 ratings = np.einsum('wv,v->w', sequence, vector)
+            elif mode == 'min/max':
+                max_vals = np.maximum(word_sequence, vector) 
+                ratings = np.divide(np.minimum(word_sequence, vector), max_vals, out = np.zeros_like(max_vals), where = max_vals!=0)
+                ratings = np.sum(ratings, axis = 1)
             elif mode == 'sqrt':
                 ratings = np.sqrt(sequence * vector)
                 ratings = np.sum(ratings, axis = -1)
