@@ -36,14 +36,16 @@ class CRVDatabase:
             self.counts = defaultdict(defaultdict)
 
             with open(filepath, 'rb') as f:
-                saved_string = f.read().decode('utf-8')
+                saved_string = f.read().decode('utf-8', 'surrogatepass')
 
-            self.vocab = [word[1:-1] for word in re.findall(fr'𘳕[\s\S]+?𘳕', saved_string)]
+            d = saved_string[0]
+
+            self.vocab = [word[1:-1] for word in re.findall(fr'{d}[\s\S]+?{d}', saved_string)]
             self.word_indices = {word: idx for idx, word in enumerate(self.vocab)}
             self.set_vocab = set(self.vocab)
 
             count_dicts = [d[1:-1] for d in re.findall(
-                fr'𘳕[\s\S]+?𘳕',
+                fr'{d}[\s\S]+?{d}',
                 saved_string[1:])]
                 
             self.counts = {word:{self.vocab[ord(c[0])-1] : ord(c[1]) for c in [(count_dict[i:i+2]) for i in range(0, len(count_dict), 2)]} for word, count_dict in zip(self.vocab, count_dicts)}
@@ -74,7 +76,7 @@ class CRVDatabase:
 
     def save(self, filepath):
         save_string = []
-        delimiter = chr(101589)
+        delimiter = chr(1114111)# find a better one based on exclusion
         for word, counts in self.counts.items():
             save_string.append(delimiter)
             save_string.append(word)
@@ -90,7 +92,7 @@ class CRVDatabase:
             filepath += '.crvdb'
             
         with open(filepath, 'wb') as f:
-            f.write((''.join(save_string)).encode("utf-8"))
+            f.write((''.join(save_string)).encode("utf-8", 'surrogatepass'))
 
 
     def compare(self, idx, mode = 'min'):

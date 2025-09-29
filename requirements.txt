@@ -3,6 +3,7 @@ appnope==0.1.4
 asttokens==3.0.0
 astunparse==1.6.3
 attrs==25.3.0
+beautifulsoup4==4.14.0
 certifi==2025.8.3
 charset-normalizer==3.4.3
 comm==0.2.3
@@ -63,6 +64,7 @@ rich==14.1.0
 rpds-py==0.27.1
 setuptools==80.9.0
 six==1.17.0
+soupsieve==2.8
 spellwise==0.8.1
 stack-data==0.6.3
 tensorboard==2.20.0
