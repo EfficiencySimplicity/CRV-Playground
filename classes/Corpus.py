@@ -74,7 +74,7 @@ class Corpus:
 
         # all lowercase, remove duplicates, split all
         self.sentences = [sentence.lower() for sentence in self.sentences]
-        self.sentences = list(set(self.sentences))
+        self.sentences = list(sorted(set(self.sentences)))
         self.sentences = [split_sentence(sentence, self.text_mode) for sentence in self.sentences]
 
     # data collection
@@ -295,7 +295,7 @@ class Corpus:
         
         
     # a Vectorizer requires a matrix. If it's too large, this makes CRVs instead
-    def create_signatures(self, window_size = 2, log = True):
+    def create_signatures(self, window_size = 2, divide = True, log = True):
 
         # setup signatures
         
@@ -323,9 +323,10 @@ class Corpus:
 
 
         # divide signatures by counts
-        for word in self.vocab:
-            total_co_occurences = sum(signatures[word].values())
-            signatures[word] = CRV({key: val / total_co_occurences for key, val in signatures[word].items()})
+        if divide:
+            for word in self.vocab:
+                total_co_occurences = sum(signatures[word].values())
+                signatures[word] = CRV({key: val / total_co_occurences for key, val in signatures[word].items()})
 
         # log data
         if not log:

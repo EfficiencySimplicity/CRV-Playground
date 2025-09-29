@@ -36,6 +36,12 @@ class CRV:
             return {k : min(v, other) for k, v in self.items()}
         else:
             return {k : min(self[k], other[k]) for k in set(self.keys()).intersection(other.keys())}
+        
+    def max(self, other):
+        if type(other) in (int, float):
+            return {k : max(v, other) for k, v in self.items()}
+        else:
+            return {k : max(self[k], other[k]) for k in set(self.keys()).intersection(other.keys())}
     
     def __abs__(self):
         return CRV(self._abs(self.asdict()))
@@ -169,7 +175,18 @@ class CRV:
     
     def values(self):
         return self.vals.values()
+    
+    # Comparing
 
+    def compare(self, other, mode = 'min'):
+        if mode == 'min':
+            return sum(self.min(other).values())
+        elif mode == 'mult':
+            return sum(self * other)
+        elif mode == 'min/max':
+            return sum(self.min(other).values() / self.max(other).values())
+        elif mode == 'sqrt':
+            return sum((self * other) ** .5) ** 2
 
     # Printing
     
