@@ -13,7 +13,7 @@ class CRV:
 
     
     def __init__(self, values):
-        self.vals = sort_abs_hl(values)
+        self.vals = sort_abs_hl({key: float(val) for key, val in values.items()})
 
 
     # Plotting
@@ -30,6 +30,9 @@ class CRV:
     def __iter__(self):
         for key in self.keys():
             yield key
+
+    def sum(self):
+        return sum(self.values())
 
     def min(self, other):
         if type(other) in (int, float):

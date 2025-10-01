@@ -7,39 +7,11 @@ Composite Representation Vectors (CRVs) are a simple and powerful human-understa
 
 # CRVs:
 
-CRVs are an effective, logical human-understandable word vector representation (although they are not limited to simply words!) that
-store words as co-occurrence tables. They are made by a fixed, logical process that allows inspection of *why* a value is the way it is,
+CRVs are an effective, logical word vector representation (although they can encode more than *words*) that
+store words as normalized co-occurrence tables. They are made by a fixed, logical process that allows inspection of *why* a value is the way it is,
 and encourage inspection into their behavior.
 
-To generate a CRV for a specific word, take every appearance of that word in a corpus, along with
-the words around it in a certain context window:
-
-"and there **was** a        new"
-"so  I     **was** starting to"
-",   it    **was** soon     apparent"
-"so  it    **was** <END>"
-
-Create a table of words to percentages. More specifically:
-
-- Every word that "was" ever appears next to is tallied in the table, based on how many times it appeared in the context window
-  (duplicates of the word in the same window ("that it **was**. That") are counted twice):
-
-  | Word     | Tally   |
-  | -------- | ------- |
-  | the      | 11800   |
-  | in       | 5920    |
-  | starting | 94765   |
-
-- Every word's tally is divided by the sum of all the tallies,
-  resulting in a normalized value representing the percentage of times that "was" is paired with that word.
-
-  | Word     | Tally   |
-  | -------- | ------- |
-  | the      | .1049   |
-  | in       | .0526   |
-  | starting | .8425   |
-
-That's all there is to it! It may seem overly simple, but CRVs can produce surprising results. 
+CRVs are created by generating a table of co-occurrence counts for each word and then normalizing them, producing a table of percentages.
 
 ### Some notes on generating CRVs:
 
@@ -48,16 +20,12 @@ That's all there is to it! It may seem overly simple, but CRVs can produce surpr
 
   A whole-document window will produce the 'theme' of the word, i.e, whether is is in mostly recipes, news articles, etc.,
   while a smaller window will be more inclined towards the "meaning" of the word
-
-- It is recommended that you use the tally - and divide method above, as simply dividing by the number of appearences of "was" will
-  neither take into account the varying window size (sometimes clipped by the end of the document), nor the fact that duplicates sometimes
-  appear in a context window.
   
 # CRV Operations
 
 #### Similarity:
 
-The best discovered methods for finding the similarity of 2 CRVs (and thus 2 ideas) are min() and absolute difference.
+The best discovered methods for finding the similarity of 2 CRVs (and thus 2 ideas) are min() and a more complicated square root operation.
 Both of these methods produce nearly identical ordering of words according to similarity, but have differing values.
 Minimum is preferred because:
 
@@ -123,7 +91,7 @@ By subtracting 'greetings' from 'hi', we get this:
   -0.01⋅hope -0.01⋅how -0.01⋅neighbor -0.01⋅the -0.01⋅to  
   -0.01⋅we +50 others}
 
-separating nefative values as 'more like "greetings"', we get these:
+Separating negative values as 'more like "greetings"' and positive values as 'more like "hi"', we get these datapoints:
 
 ##### more like 'hi':
 
@@ -146,18 +114,17 @@ From these two CRVs, we can gain quite a lot of information:
 
 # CRV Interpretation
 
-CRVs are not like ordinary vector representations, which combine meaning spread out across many values, and are not oriented 
-towards being easy for humans to understand, instead being optimized for efficiency. The fact that CRVs are made by a fixed
-process allows for inspection into the meaning of their values.
+CRVs are not like ordinary vector representations, which are not oriented 
+towards being easy for humans to understand, instead being optimized for compression efficiency. 
+The fact that CRVs are made by a fixed process allows for inspection into the meaning of their values.
 
-Consider the CRV of "bake", obtained from a corpus of recipes:  
+Consider the CRV of "bake", obtained from the recipe corpus:  
   { +0.17⋅\n +0.16⋅- +0.1⋅at +0.1⋅3 +0.04⋅and +0.04⋅.   
     +0.03⋅for +0.03⋅1 +0.03⋅in +0.02⋅4 +0.02⋅0 +0.02⋅2  
     +0.02⋅5 +0.01⋅, +0.01⋅a +0.01⋅uncovered +0.01⋅pan   
     +0.01⋅until +0.01⋅about +0.01⋅cover +352 others}  
 
 Here we see, *as expected*, words that would be around the word 'bake'.
-This may be the first time you have seen a word vector that is what you *expect*!
 
 These representations can even be guessed at; take for example this CRV, from the same corpus:
 
@@ -190,14 +157,14 @@ A quick search reveals:
 
 '1 / 2 - quart casserole . '
 
-It appears (and I have learned many other things from my CRVs) that
+It appears (and I have learned many other things from CRVs) that
 the standard measurement of a casserole is in *quarts*,
 which was certainly unexpected for me. I'd expect the measurement to be in pan-inches.
 
 CRV's meanings are not completely discrete, though. Meaning *can* be spread across values, albeit in a sensible way.
-For example, the phrase '-off', as in dance-off, bake-off, etc. is two words that together give the idea of a competition.
+For example, the phrase '- off', as in dance-off, bake-off, etc. is two words that together give the idea of a competition.
 
-Diplomacy hi greetings
+Groups of words, not single words, that a word appears near give meaning to the word
 
 
 
