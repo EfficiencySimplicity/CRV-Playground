@@ -156,3 +156,6 @@ class Vectorizer:
 
     def __getitem__(self, idx):
         return self.matrix[self.to_int(idx)]
+    
+    def __call__(self, idx):
+        return self[idx]
