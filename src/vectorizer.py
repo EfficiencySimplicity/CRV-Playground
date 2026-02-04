@@ -1,8 +1,8 @@
 from itertools import *
 import numpy as np
 
-from classes.utils import *
-from classes.crv import *
+from src.utils import *
+from src.crv import *
 
 ################ The Vectorizer Class ################
 #

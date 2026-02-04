@@ -1,4 +1,4 @@
-from classes.utils import *
+from src.utils import *
 
 ################ Composite Representation Vectors ################
 #

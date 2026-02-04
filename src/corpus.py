@@ -5,9 +5,9 @@ from itertools import *
 import numpy as np
 import json
 
-from classes.utils import *
-from classes.crv import *
-from classes.vectorizer import *
+from src.utils import *
+from src.crv import *
+from src.vectorizer import *
 
 
 ################ The Corpus Class ################

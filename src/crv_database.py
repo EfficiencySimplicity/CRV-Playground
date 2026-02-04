@@ -1,8 +1,8 @@
 from collections import defaultdict
 import re
 
-from classes.utils import *
-from classes.crv import *
+from src.utils import *
+from src.crv import *
 
 ################ CRV Database ################
 #
