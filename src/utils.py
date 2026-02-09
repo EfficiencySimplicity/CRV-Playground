@@ -155,39 +155,33 @@ CONCAT_CHARS = 'qwertyuiopasdfghjklzxcvbnmàáâãäåæçèéêëìíîïðñò
 # split a sentence into words or characters
 def split_sentence(
         sentence,
-        mode         = 'word',
         skip_chars   = None,
         concat_chars = None,
         add_border_tokens = True):
 
-    if mode == 'char':
-        splitted_sentence = list(sentence)
+    skip_chars   = skip_chars   or SKIP_CHARS
+    concat_chars = concat_chars or CONCAT_CHARS
+
+    splitted_sentence = []
+    current_word      = ''
+
+    # adding a whitespace to the end will make it add the current word at the end
+    for char in sentence + " ":
+
+        if char in concat_chars:
+            current_word += char
+            continue
+
+        # the current word is not in concat_chars now
         
-    elif mode == 'word':
+        # add the current word if it's not empty
+        if current_word != '':
+            splitted_sentence.append(current_word)
+            current_word = ''
 
-        skip_chars   = skip_chars   or SKIP_CHARS
-        concat_chars = concat_chars or CONCAT_CHARS
-
-        splitted_sentence = []
-        current_word      = ''
-
-        # adding a whitespace to the end will make it add the current word at the end
-        for char in sentence + " ":
-
-            if char in concat_chars:
-                current_word += char
-                continue
-
-            # the current word is not in concat_chars now
-            
-            # add the current word if it's not empty
-            if current_word != '':
-                splitted_sentence.append(current_word)
-                current_word = ''
-
-            # if this is not a skip char, append it as its own word
-            if char not in skip_chars:
-                splitted_sentence.append(char)
+        # if this is not a skip char, append it as its own word
+        if char not in skip_chars:
+            splitted_sentence.append(char)
 
     if add_border_tokens:
         return ['<START>'] + splitted_sentence + ['<END>']
@@ -195,8 +189,8 @@ def split_sentence(
         return splitted_sentence
 
 # concatenate a list of words or chracters into a string
-def concat_sentence(sentence, mode = 'word'):
-    return ('' if mode == 'char' else ' ').join(sentence)
+def concat_sentence(sentence):
+    return ' '.join(sentence)
 
 #hitting, '_?ing->_+ing'
 def lemmatize(word, lemma_rule):

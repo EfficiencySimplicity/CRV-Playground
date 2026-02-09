@@ -3,8 +3,8 @@ from src.utils import *
 ################ Composite Representation Vectors ################
 #
 # - Basically a wrapper for the basic python dictionary
-# - Stores a dict of keys and co-occurrence frequencies
-# - prints them in clean format
+# - Stores a dict of counts and a dict of co-occurrence frequencies
+# - prints them in a clean format
 # - Performs operations on these dicts (add, sum, div, etc.)
 
 class CRV:
@@ -187,8 +187,6 @@ class CRV:
             return sum(self.min(other).values())
         elif mode == 'mult':
             return sum(self * other)
-        elif mode == 'min/max':
-            return sum(self.min(other).values() / self.max(other).values())
         elif mode == 'sqrt':
             return sum((self * other) ** .5) ** 2
 
